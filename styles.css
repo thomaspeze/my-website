@@ -57,14 +57,23 @@ footer {
   position: relative;
 }
 
+footer .copyright {
+  order: 2; /* Positionne le copyright après les icônes sociales */
+  margin-top: 5px; /* Ajoute un espace au-dessus */
+  margin-bottom: 5px;
+  font-size: 0.9rem; /* Ajuste la taille de la police */
+}
+
 /* Section des icônes sociales */
 .social-icons {
+    order: 1;
     display: flex;
     gap: 15px; /* Espacement entre les icônes */
     margin-top: 10px;
     position: relative;
     justify-content: flex-end; /* Alignement à droite par défaut (ordinateur) */
     padding-right: 40px; /* Espace entre les icônes et le bord droit */
+    padding-top: 25px;
 }
 
 /* Style des images des icônes */
