@@ -18,6 +18,7 @@ header {
   text-align: center;
   width: 100%;
   box-sizing: border-box; /* Assure que padding est inclus dans la largeur */
+  overflow: hidden; 
 }
 
 header img {
