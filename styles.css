@@ -55,40 +55,33 @@ footer {
   width: 100%;
 }
 
-/* Icônes sociales */
+/* Section des icônes sociales */
 .social-icons {
-  display: flex;
-  justify-content: center; /* Centrer les icônes sur mobile */
-  gap: 15px; /* Espacement entre les icônes */
-  margin-top: 10px;
+    display: flex;
+    gap: 15px; /* Espacement entre les icônes */
+    margin-top: 10px;
+    position: relative;
+    justify-content: flex-end; /* Alignement à droite par défaut (ordinateur) */
+    padding-right: 20px; /* Espace entre les icônes et le bord droit */
 }
 
+/* Style des images des icônes */
 .social-icons img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  transition: transform 0.3s ease, filter 0.3s ease;
+    width: 40px; /* Taille des icônes */
+    height: 40px;
+    border-radius: 50%; /* Icônes arrondies */
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .social-icons a:hover img {
-  transform: scale(1.2); /* Animation de survol */
-  filter: brightness(1.2); /* Éclaircir au survol */
+    transform: scale(1.2); /* Agrandir légèrement au survol */
+    filter: brightness(1.2); /* Éclaircir au survol */
 }
 
-/* Médias queries pour petits écrans */
+/* Médias queries : style pour les petits écrans */
 @media (max-width: 768px) {
-  header nav ul {
-      flex-direction: column; /* Navigation en colonne */
-      gap: 10px;
-  }
-
-  .social-icons {
-      flex-direction: row; /* Toujours en ligne pour les icônes */
-      gap: 10px;
-  }
-
-  .social-icons img {
-      width: 30px; /* Réduit la taille des icônes */
-      height: 30px;
-  }
+    .social-icons {
+        justify-content: center; /* Centre les icônes sur mobile */
+        padding-right: 0; /* Retire l'espace inutile à droite */
+    }
 }
