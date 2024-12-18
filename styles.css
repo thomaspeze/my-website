@@ -5,6 +5,10 @@ body {
   display: flex;
   flex-direction: column; /* Organisation verticale */
   min-height: 100vh; /* Hauteur minimale : 100% de la hauteur de la fenêtre */
+  background-image: url(src/art_compil.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 html, body {
@@ -103,6 +107,22 @@ footer .copyright {
     filter: brightness(1.2); /* Éclaircir au survol */
 }
 
+.content-box {
+  background-color: white;
+  width: 80%; /* Ajuste la largeur du carré */
+  max-width: 600px; /* Limite la largeur maximale */
+  margin: 50px auto; /* Centre le carré */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce autour du carré */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+.content-box p {
+  color: black; /* Change la couleur du texte pour qu'il soit lisible */
+  font-size: 18px; /* Ajuste la taille du texte */
+  line-height: 1.6;
+}
+
 /* Médias queries : style pour les petits écrans */
 @media (max-width: 768px) {
     .social-icons {
@@ -127,4 +147,5 @@ footer .copyright {
     footer .copyright {
       margin-top: 20px; /* Ajoute un espace au-dessus */
     }
+
 }
