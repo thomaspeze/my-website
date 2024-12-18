@@ -53,6 +53,7 @@ footer {
   text-align: left;
   padding: 20px;
   width: 100%;
+  position: relative;
 }
 
 /* Section des icônes sociales */
