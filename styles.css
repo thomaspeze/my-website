@@ -1,7 +1,7 @@
 /* Corps de la page */
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   display: flex;
@@ -64,13 +64,13 @@ footer {
     margin-top: 10px;
     position: relative;
     justify-content: flex-end; /* Alignement à droite par défaut (ordinateur) */
-    padding-right: 20px; /* Espace entre les icônes et le bord droit */
+    padding-right: 40px; /* Espace entre les icônes et le bord droit */
 }
 
 /* Style des images des icônes */
 .social-icons img {
-    width: 40px; /* Taille des icônes */
-    height: 40px;
+    width: 50px; /* Taille des icônes */
+    height: 50px;
     border-radius: 50%; /* Icônes arrondies */
     transition: transform 0.3s ease, filter 0.3s ease;
 }
