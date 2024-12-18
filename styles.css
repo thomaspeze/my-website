@@ -2,12 +2,16 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
   display: flex;
-  overflow-x: hidden;
   flex-direction: column; /* Organisation verticale */
   min-height: 100vh; /* Hauteur minimale : 100% de la hauteur de la fenêtre */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Désactive le défilement horizontal */
+  width: 100%;
 }
 
 /* Header */
