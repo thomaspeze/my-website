@@ -110,9 +110,10 @@ footer .copyright {
 .content-box {
   background-color: white;
   width: 80%; /* Ajuste la largeur du carré */
-  max-width: 600px; /* Limite la largeur maximale */
+  max-width: 90%; /* Limite la largeur maximale */
   margin: 50px auto; /* Centre le carré */
   padding: 20px;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce autour du carré */
   border-radius: 10px; /* Coins arrondis */
 }
