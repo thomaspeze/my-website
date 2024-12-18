@@ -67,6 +67,8 @@ footer {
   padding: 20px;
   width: 100%;
   position: relative;
+  box-sizing: border-box; /* Inclut padding et bordures dans la largeur */
+  overflow: hidden;
 }
 
 footer .copyright {
@@ -84,7 +86,7 @@ footer .copyright {
     margin-top: 10px;
     position: relative;
     justify-content: flex-end; /* Alignement à droite par défaut (ordinateur) */
-    padding-right: 40px; /* Espace entre les icônes et le bord droit */
+    padding-right: 10px; /* Espace entre les icônes et le bord droit */
     padding-top: 25px;
 }
 
