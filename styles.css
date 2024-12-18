@@ -118,6 +118,11 @@ footer .copyright {
   border-radius: 10px; /* Coins arrondis */
 }
 
+a {
+  text-decoration: none;  /* Enlève le soulignement */
+  color: inherit;         /* Prend la couleur du texte parent (ici, celle de h1) */
+}
+
 .content-box p {
   color: black; /* Change la couleur du texte pour qu'il soit lisible */
   font-size: 18px; /* Ajuste la taille du texte */
