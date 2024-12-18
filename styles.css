@@ -20,6 +20,11 @@ header {
   box-sizing: border-box; /* Assure que padding est inclus dans la largeur */
 }
 
+header img {
+  max-width: 100%; /* Empêche l'image de déborder */
+  height: auto;
+}
+
 /* Navigation */
 header nav ul {
   list-style: none;
