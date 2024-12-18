@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  overflow-x: hidden;
   flex-direction: column; /* Organisation verticale */
   min-height: 100vh; /* Hauteur minimale : 100% de la hauteur de la fenêtre */
 }
