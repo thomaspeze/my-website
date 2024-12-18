@@ -16,6 +16,8 @@ header {
   color: #ffffff;
   padding: 10px 0;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box; /* Assure que padding est inclus dans la largeur */
 }
 
 /* Navigation */
@@ -94,5 +96,18 @@ footer .copyright {
     .social-icons {
         justify-content: center; /* Centre les icônes sur mobile */
         padding-right: 0; /* Retire l'espace inutile à droite */
+    }
+    header {
+      padding: 10px 20px; /* Réduit l'espace du header pour les petits écrans */
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 10px; /* Espacement entre les liens */
+      padding: 0;
+    }
+
+    header nav ul li {
+      margin: 0;
     }
 }
